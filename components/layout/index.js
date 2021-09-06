@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from './Header'
-import Footer from './Footer'
+// import Footer from './Footer'
 // import Search from './Search'
 
 export default function Layout({ title, keywords, description, children }) {
@@ -17,7 +17,7 @@ export default function Layout({ title, keywords, description, children }) {
       {/* <Search /> */}
       <main className='container mx-auto my-7'>{children}</main>
 
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
